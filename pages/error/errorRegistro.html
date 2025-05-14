@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlace al CSS de Bootstrap desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlace para estilos -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <title>ERROR REGISTRO</title>
+</head>
+
+
+<body>
+    <!-- Modal (versión Bootstrap) -->
+    <div class="modal fade show d-flex align-items-center justify-content-center border-radius" tabindex="-1"
+        style="display: block; background-color: rgba(122, 12, 12, 0.89); backdrop-filter: blur(4px); z-index: 999;">
+        <div class="modal-dialog modal-dialog-centered w-100 w-sm-75 w-md-50 w-lg-40 rounded"
+            style="min-width: 70%; margin: 50;">
+            <div class="modal-content shadow-sm">
+                <!-- Encabezado -->
+                <div class="modal-header border-bottom-0 p-4 bg-danger text-center align-items-center">
+                    <h5 class="modal-title w-100 text-black fs-1">Error al registrar el usuario</h5>
+                </div>
+
+                <!-- Cuerpo del modal -->
+                <div class="modal-body border-top d-flex justify-content-center align-items-center text-secondary fs-2 fs-sm-1 text-black"
+                    style="min-height: 200px;">
+                    <div>
+                        * Algunos campos solicitados podrían no estar completados correctamente.<br>
+                        * Algunas credenciales ya podrían estar en uso.<br>
+                        * Regrese en el navegador o reinténtelo más tarde.
+                    </div>
+                </div>
+
+                <!-- Pie del modal -->
+                <div class="modal-footer border-top-0 justify-content-end"
+                    style="background-color: rgba(255, 81, 81, 0.6)">
+                    <a href="/loginUsuario.html"
+                        class="btn btn-dark text-secondary text-light rounded fs-3">Cancelar</a>
+                    <a href="/registerUsuario.html" class="btn btn-danger text-white rounded fs-3">Regresar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+</html>

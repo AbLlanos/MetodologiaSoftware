@@ -1,0 +1,56 @@
+/* Abner */
+
+/*Imagen de fondo*/
+.imagenFondoErrorExito {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+/*Botones de ventanas de error*/
+.modal-footer .btn {
+        transition: transform 0.2s ease-in-out;
+}
+
+.modal-footer .btn:hover {
+        transform: scale(1.05);
+}
+
+/*Colores: para usar solo de fondo poner dentro de class*/
+
+.colorPrincipal {
+        background-color: #00152e;
+}
+
+.colorSecundario {
+        background-color: #0a243e;
+}
+
+.colorTerciario {
+        background-color: #15324e;
+}
+
+.colorCuatro {
+        background-color: #1f415d;
+}
+
+.colorCinco {
+        background-color: #294f6d;
+}
+
+.colorBlanco {
+        background-color: #ffffff;
+}
+
+.colorGrisClaro {
+        background-color: #9097a7;
+}
+
+.colorGrisOscurso {
+        background-color: #565d6b;
+}
+
+.colorOscurso {
+        background-color: #181818;
+}
